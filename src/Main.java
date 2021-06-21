@@ -9,7 +9,13 @@ public class Main {
 
     public static List<Integer> iterateByLowestValue (List<Integer> intList){
         List<Integer> newList = new ArrayList<>();
-        newList.add(intList.listIterator());
+        int lowestSoFar = intList.get(0);
+
+        for (Integer i :
+                intList) {
+            
+        }
+        
     }
 
     public static List<Integer> decrementList (List<Integer> intList) {
